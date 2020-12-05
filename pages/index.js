@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const List = ({ items }) => {
   const [filteredItems, setfilteredItems] = React.useState(items);
@@ -10,6 +11,10 @@ const List = ({ items }) => {
   };
   return (
     <>
+      <Link as="./post/about-page" href="./post/[id]">
+        <a> About page</a>
+      </Link>
+
       <input onChange={filterItems} />
       <ul>
         {filteredItems.map((item) => (
