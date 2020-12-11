@@ -13,7 +13,10 @@ const List = ({ items }) => {
     <>
       <div>
         <Link as="./post/about-page" href="./post/[id]">
-          <a> Click here to go to About page</a>
+          <a>
+            {" "}
+            <h1>Click here to go to About page</h1>
+          </a>
         </Link>
       </div>
 
