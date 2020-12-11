@@ -11,6 +11,7 @@ const LinkList = () => {
         </li>
         <li>
           <Link as="/post/dawnDusk" href="/post/[id]">
+            {/* We use the as attribute to distinguish betwen the first / second post */}
             <a>Dawn and Dusk</a>
           </Link>
         </li>
