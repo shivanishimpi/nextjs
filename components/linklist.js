@@ -15,6 +15,9 @@ const LinkList = () => {
           </Link>
         </li>
       </ul>
+      <Link href="../">
+        <a>Go back to the Previous Page</a>
+      </Link>
     </>
   );
 };
