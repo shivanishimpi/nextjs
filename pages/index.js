@@ -11,9 +11,11 @@ const List = ({ items }) => {
   };
   return (
     <>
-      <Link as="./post/about-page" href="./post/[id]">
-        <a> About page</a>
-      </Link>
+      <div>
+        <Link as="./post/about-page" href="./post/[id]">
+          <a> Click here to go to About page</a>
+        </Link>
+      </div>
 
       <input onChange={filterItems} />
       <ul>

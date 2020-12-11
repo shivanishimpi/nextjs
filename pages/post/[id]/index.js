@@ -1,7 +1,7 @@
 import React from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import LinkList from "../listed";
+import LinkList from "../../../components/linklist";
 
 const Post = () => {
   const router = useRouter();
