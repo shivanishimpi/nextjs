@@ -4,6 +4,11 @@ const LinkList = () => {
   return (
     <header>
       <ul>
+      <li>
+          <Link href="/login">
+            <a>Login</a>
+          </Link>
+        </li>
         <li>
           <Link as="/post/1" href="/post/[id]">
             <a>Papaya Cookie</a>

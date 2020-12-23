@@ -12,7 +12,7 @@ const List = ({ items }) => {
   return (
     <>
       <div>
-        <Link as="./post/about-page" href="./post/[id]">
+        <Link as="./post/a" href="./post/[id]">
           <a>
             {" "}
             <h1>Click here to go to About page</h1>
