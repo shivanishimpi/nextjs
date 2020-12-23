@@ -5,8 +5,11 @@ const Dashboard = ({ avatar_url, name, bio, blog }) => (
 		<p>{`Bio = ${bio}`}</p>
 		<p>{`Blog = ${blog}`}</p>
 		{/* <p>
-			<Image src="https://avatars0.githubusercontent.com/u/55087404?v=4.png" alt="Avatar" height=></Image>
+			<Image src={`${avatar_url}.png`} alt="Avatar" width={500} height={500} />
 		</p> */}
+		<p>
+			<Image src="https://avatars2.githubusercontent.com/u/37953717?v=4" alt="Avatar" width={500} height={500} />
+		</p>
 	</>
 );
 
